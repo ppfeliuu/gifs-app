@@ -12,12 +12,6 @@ input {
   width: 100%;
 }
 
-.card-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .card {
   align-content: center;
   border: 1px solid grey;
@@ -25,13 +19,4 @@ input {
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: visible;
-}
-
-.card p {
-  padding: 5px;
-  text-align: center;
-}
-
-.card img {
-  max-height: 170px;
 }
